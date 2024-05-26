@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
 <head>
-	<title>4 GIRLS | Quản lí sản phẩm</title>
+	<title>4 GIRLS | Thống kê sản phẩm</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/grid.css">
@@ -66,15 +66,12 @@ session_start();
 				<div class="row sm-gutter grid-content">
 					<div class="column l-2 me-0 s-0">
 						<nav class="category">
-							<h3 class="category-heading" align="center">
-								<p >***</p>
-								<a>Quản lý sản phẩm</a>
-								<p></p>
-								<p  >***</p>
+						<h3 class="category-heading">
+							<p style="text-align: center; margin-top:20px;">Thống kê sản phẩm</p>
 							</h3>
 							<ul class="category-list">
 								<li class="category-item category-item--active">
-									<a href="../admin.php" ><- Quay lại </a>
+									<a href="../admin.php" > Quay lại </a>
 								</li>
 							</ul>
 						</nav>

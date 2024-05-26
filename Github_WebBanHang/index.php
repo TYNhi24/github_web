@@ -195,7 +195,7 @@ $conn = mysqli_connect('localhost', 'root', '', 'dacs2');
 				}
 				else {
 						echo '<div class="column l-2-4 me-4 s-6" >
-							<a class="home-product-item" href="./pages/sanpham.php?id= '.$row['id'].'">>
+							<a class="home-product-item" href="./pages/sanpham.php?id= '.$row['id'].'">
 								<div class="home-product-item__img" style="background-image:url('.$row['hinhanh'] .')"></div>
 								<h4 class="home-product-item__name">'.$row['tensp'].'</h4>
 								<div class="home-product-item__price">
@@ -214,7 +214,7 @@ $conn = mysqli_connect('localhost', 'root', '', 'dacs2');
 										<i class="home-product-item__star-gold fas fa-star"></i>
 										<i class="home-product-item__star-gold fas fa-star"></i>
 									</div>
-									<span class="home-product-item__sold">Số lượng: Hết hàng</span>
+									<span class="home-product-item__sold">Số lượng: 0</span>
 								</div>
 								
 							

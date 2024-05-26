@@ -4,25 +4,25 @@
     padding: 0;
 }
 .grid.wide {
-    max-width: 1200px;      /* chiều rộng tối đa của các phần tử là 1200px */
-    margin: 0 auto;         /* đặt lề trái và phải của các phần tử thành tự động (auto) */
-}   
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .row {
     display: flex;
-    flex-wrap: wrap;        /*  tự động xuống dòng khi không đủ không gian */
-    margin-left: -4px;      /* khoảng đệm trái - phải cách -4px*/
+    flex-wrap: wrap;
+    margin-left: -4px;
     margin-right: -4px;
 }
 
 .row.no-gutters {
-    margin-left: 0;         /* xóa khoảng đệm ở cả hai bên */
+    margin-left: 0;
     margin-right: 0;
 }
 
 .column {
-    padding-left: 4px;      /* tạo ra một khoảng đệm ở cả hai bên */
-    padding-right: 4px;     /* tạo ra khoảng cách giữa các cột */
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .row.no-gutters .column {
@@ -31,12 +31,12 @@
 }
 
 .s-0 {
-    display: none;  /* ẩn các phần tử có lớp s-0, làm cho chúng không hiển thị trên trang */
+    display: none;
 }
 
 .s-1 {
-    flex: 0 0 8.33333%;     /* cho phần tử một giá trị flex basis là 8.33333% (tương đương với một cột trong hệ thống cột 12 cột) */
-    max-width: 8.33333%;    /* chiều rộng tối đa của phần tử là 8.33333% */
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
 }
 
 .s-2 {
@@ -140,7 +140,7 @@
 }
 
 /* >= Tablet */
-@media (min-width: 740px) {     /* phạm vi màn hình có độ rộng tối thiểu là 740px */ 
+@media (min-width: 740px) {
     .row {
         margin-left: -8px;
         margin-right: -8px;
@@ -547,7 +547,7 @@
     }
 
     .wide .l-11 {
-        flex: 0 0 91.66667%;        /* không có khả năng co bóng ra và sẽ chiếm 91.66667% không gian của phần tử chứa chúng */
+        flex: 0 0 91.66667%;
         max-width: 91.66667%;
     }
 
